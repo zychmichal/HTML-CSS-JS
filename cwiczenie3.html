@@ -1,0 +1,132 @@
+<?xml version="1.0"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<script type="text/javascript" src="ustawianiestyli.js"></script>
+	<link type="text/css" rel="stylesheet" title="glowny" href="style.css" />
+	<link type="text/css" rel="alternate stylesheet" title="alt1" href="alter.css"/>
+	<link type="text/css" rel="alternate stylesheet" title="alt2" href="alter1.css"/>
+	<link type="text/css" rel="stylesheet" media="print" title="print" href="druk.css"  />
+	<title>Tabela listy oraz definicje</title>
+	<meta http-equiv="Content-Type" content="application/xhtml+xml;
+	charset=UTF-8" />
+</head>
+<body onload="pokazStyle(); inicjalizacjaStyl()">
+<div class="tytul"><h1>Tabela listy oraz definicje</h1></div>
+<div id="spis">
+	<p><b>Menu:</b></p>
+	<div id="menu">
+	<ul>
+        	<li><a href="cwiczenie1.html">Podstawy HTML</a></li>
+                <li><a href="cwiczenie2.html">Formatowanie tekstu</a></li>
+                <li><a href="cwiczenie3.html">Tabele i listy</a></li>
+                <li><a href="cwiczenie4.html">Obrazy</a></li>
+                
+        </ul>
+
+
+	<p><b> Na tej stronie: </b></p>
+	<ul>
+	
+        	<li><a href="#rozdz1">Tabele</a></li>
+        	<li><a href="#rozdz2">Listy</a></li>
+        	<li><a href="#rozdz3">Definicje</a></li>  
+        </ul>
+</div>
+</div>
+
+<div id="rest">
+	<h1 id="rozdz1">Tabele</h1>
+	<table border="1">
+                    <thead>
+                        <tr>
+                            <th colspan="2">Wartość1</th>
+                            <th colspan="2">Wartość2</th>
+                            <th colspan="2">Wartość3</th>
+                            <th>Wartość4</th>
+                        </tr>
+                    </thead>
+                    <tfoot>
+                        <tr>
+                            <td colspan="7">Koniec Tabeli</td>
+                        </tr>
+                    </tfoot>
+                    <tbody>
+                        <tr>
+                            <td align="center">1a</td>
+                            <td align="center">2a</td>
+                            <td rowspan="2" colspan="2" class="column_color">3a</td>
+                            <td rowspan="2">4a</td>
+                            <td colspan="2">5a</td>
+                        </tr>
+                        <tr>
+                            <td>1b</td>
+                            <td>2b</td>
+                            <td align="center" colspan="2">3b</td>
+                        </tr>
+                        <tr>
+                            <td rowspan="2" colspan="2">1c</td>
+                            <td rowspan="2" class="column_color">2c</td>
+                            <td rowspan="2" class="column_color">3c</td>
+                            <td colspan="2">4c</td>
+                            <td>5c</td>
+                        </tr>
+                        <tr>
+                            <td>1d</td>
+			    <td colspan="2">2d</td>
+                        </tr>
+                    </tbody>
+                </table>
+	
+
+<h1 id="rozdz2">Listy</h1>
+
+<ol>
+<li> Punkt 1
+<ol>
+<li> drugi poziom bez numeracji </li>
+<li> drugi poziom bez numeracji </li>
+</ol>
+</li>
+<li> Punkt 2
+<ol>
+<li> drugi poziom z numeracja
+<ul>
+<li> trzeci poziom bez numeracji </li>
+<li> trzeci poziom bez numeracji </li>
+</ul>
+</li>
+<li> drugi poziom z numeracja </li>
+</ol>
+</li>
+<li> Punkt 3</li>
+<li> Punkt 4</li>
+<li> Punkt 5</li>
+</ol>
+
+
+	<h1 id="rozdz3">Definicje</h1>
+<dl>
+	<dt>Luminescencja</dt> <dd>zjawisko emisji fal świetlnych przez niektóre ciała (luminofory) wywołane przyczyną inną niż rozgrzanie ich do wysokiej temperatury
+	</dd>
+	<dt>Fosforescencja</dt> <dd>rodzaj fotoluminescencji, zjawisko świecenia niektórych substancji światłem własnym, wywołane uprzednim naświetleniem (lub napromieniowaniem pokrewnego rodzaju) z zewnątrz.
+	</dd>
+	<dt>Wolfram</dt> <dd>pierwiastek chemiczny z grupy metali przejściowych w układzie okresowym.
+	</dd>
+</dl>
+
+ <p>
+    <a href="http://validator.w3.org/check?uri=referer"><img
+      src="http://www.w3.org/Icons/valid-xhtml10" alt="Valid XHTML 1.0 Strict" height="31" width="88" /></a>
+  </p>
+<p>
+    <a href="http://jigsaw.w3.org/css-validator/check/referer">
+        <img style="border:0;width:88px;height:31px"
+            src="http://jigsaw.w3.org/css-validator/images/vcss"
+            alt="Valid CSS!" />
+    </a>
+</p>
+</div>
+</body>
+</html>

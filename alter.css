@@ -1,0 +1,126 @@
+
+body
+{
+	font-family: "FreeMono", monospace;
+	background-color: lightyellow;
+	color: blue;
+}
+
+h1
+{ 
+	color: green;
+	letter-spacing: 10px;
+	font-family: sans-serif;
+	margin-left: 30px;
+}
+h2
+{ 
+	color: yellow;
+	font-family: sans-serif;
+	margin-left: 30px;
+}
+
+p 
+{
+    text-indent: 2em;
+}
+p:first-letter {
+    font-size: 200%;
+    color: red;
+}
+
+.tytul{
+	word-wrap: break-word;
+	text-align: center;
+
+}
+
+
+table, td
+{
+    border: 2px solid black;
+    border-color: red;
+    background-color: lightblue;
+}
+th {
+    border: 3px solid black;
+    border-color: blue;
+    font-family: Verdena;
+    color: red;
+	background-color: yellow;
+	text-transform: uppercase;
+
+}
+
+.column_color
+{
+	border: 2px solid black;
+    border-color: red;
+    background-color: green;
+
+}
+
+.left{
+	float: left;
+}
+
+
+.right{
+	float: right;
+}
+
+
+ol {
+    list-style-type: upper-roman;
+}
+ol > li > ol > li {
+    list-style-type: lower-roman;
+}
+
+ol > li > ol > li > ul > li {
+    list-style-type: lower-greek;
+}
+
+
+
+#rest{
+	position: static;
+	background-color: lightgreen;
+	border: 2px solid blue;
+	padding: 5px;
+
+}
+
+#spis{
+	position: static;
+	padding: 60px;
+    	max-height: 600px;
+    	background-color: lightblue;
+    	text-align: center;
+	border: 2px solid blue;
+	
+}
+#spis a{
+	display: block;
+	background-color: black;
+	text-decoration: none;
+	color: white;
+	padding: 2px;
+	border-radius: 5px;
+	margin-bottom: 2px;
+	text-align: center;
+}
+#spis a:hover{
+	color: yellow;
+	cursor: default;
+}
+
+#spis ol{
+    list-style-type: none;
+    width: 250px;
+    padding: 2px 2px 1px 2px;
+}
+#spis li{
+    list-style-type: none;
+    padding: 2px 2px 1px 2px;
+}

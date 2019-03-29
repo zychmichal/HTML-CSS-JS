@@ -1,0 +1,40 @@
+#spis {
+	display: none;
+}
+#rest{
+	margin: 0px auto;
+	max-width: 1080px;
+	border: 0px;
+	position: absolute;
+    	left: 0px;
+    	top: 50px;
+	
+	
+}
+
+body {
+	text-decoration: none;
+	font-family: "FreeMono", monospace;
+	color: black;
+	border-color:black;
+}
+h1, h2, h3, a, p, p:first-letter{
+	color: black;
+	margin: 10px 10px;
+}
+.title{
+	margin: 10px 10px;
+}
+table, td, th{
+	color: black;
+	border:none;
+}
+.column_color{
+	color: black;
+	border:none;
+}
+img {
+  filter: gray;
+  filter: grayscale(1);
+  -webkit-filter: grayscale(1);
+}
